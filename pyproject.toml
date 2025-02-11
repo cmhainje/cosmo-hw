@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cosmology"
+version = "0.1.0"
+description = ""
+authors = ["Connor Hainje <cmhainje@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+astropy = "^7.0.1"
+scipy = "^1.15.1"
+chic = {git = "https://github.com/cmhainje/chic"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
